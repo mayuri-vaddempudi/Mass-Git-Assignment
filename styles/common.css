@@ -20,7 +20,7 @@ body {
     display: flex;
     align-items: center;
     background-color: #0C977B;
-    border-bottom: solid 2px #000;
+    border-bottom: solid 2px #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -102,6 +102,10 @@ body {
         margin: 0;
     }
 
+    .navigation ul {
+        padding: 0px;
+    }
+
     .footer {
         flex-wrap: nowrap;
     }
@@ -113,8 +117,8 @@ body {
 
     .logo {
         margin: .25em 0;
-        align-self: left;
-        /* align the logo to the left side of 'flex-container' */
+        text-align: center;
+        padding: 7px;
     }
 
     .navigation {

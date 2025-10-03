@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width = device-width initial-scale=1">
     <title> Git Assignment </title>
-    <link rel="stylesheet" href="Styles/common.css" />
-    <link rel="stylesheet" href="Styles/home.css" />
+    <link rel="stylesheet" href="../styles/common.css" />
+    <link rel="stylesheet" href="../styles/changes.css" />
 </head>
-
+ 
 <body>
     <header class="header">
         <div class="logo">
@@ -20,25 +20,89 @@
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="#">Projects</a>
+                    <a href="projects.html">Projects</a>
                 </li>
                 <li>
-                    <a href="#">Changes</a>
+                    <a href="changes.html">Changes</a>
                 </li>
                 <li>
-                    <a href="#">Branching</a>
+                    <a href="branches.html">Branching</a>
                 </li>
                 <li>
-                    <a href="#">About Us</a>
+                    <a href="about.html">About Us</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main>
-        <p>
-            This is about the changes
-        </p>
-    </main>
+    <div class="heading">
+        <h1>Git Changes & Adding Code</h1>
+    </div>
+ 
+    <div class="container">
+ 
+        <!-- Intro Section -->
+        <section class="intro">
+            <h2>What Are Changes?</h2>
+            <p>
+                In Git, changes represent updates made to files in your repository.
+                Each commit saves a snapshot of your project. Tracking changes helps
+                you understand progress, collaborate with others, and maintain a clean history.
+            </p>
+        </section>
+ 
+        <!-- Recent Changes -->
+        <section class="changes-list">
+            <h2>Recent Changes</h2>
+            <div class="change">
+                <h3>Commit: Fix login bug</h3>
+                <p><strong>Author:</strong> John Doe</p>
+                <p><strong>Date:</strong> 02-Oct-2025</p>
+                <p>Fixed an issue where users could not log in with correct credentials.</p>
+            </div>
+            <div class="change">
+                <h3>Commit: Add homepage design</h3>
+                <p><strong>Author:</strong> Jane Smith</p>
+                <p><strong>Date:</strong> 01-Oct-2025</p>
+                <p>Implemented the main homepage layout with responsive design.</p>
+            </div>
+            <div class="change">
+                <h3>Commit: Update README</h3>
+                <p><strong>Author:</strong> Alex Johnson</p>
+                <p><strong>Date:</strong> 30-Sep-2025</p>
+                <p>Added project description and instructions for installation and usage.</p>
+            </div>
+        </section>
+ 
+        <!-- Adding Code Section -->
+        <section class="add-code">
+            <h2>Adding Code to an Existing Repository</h2>
+            <ol>
+                <li>
+                    <strong>Check repository status:</strong>
+                    <code>git status</code>
+                </li>
+                <li>
+                    <strong>Stage changes:</strong>
+                    <code>git add filename</code> or <code>git add .</code>
+                </li>
+                <li>
+                    <strong>Commit changes:</strong>
+                    <code>git commit -m "Commit message"</code>
+                </li>
+                <li>
+                    <strong>Push changes to remote:</strong>
+                    <code>git push origin branch-name</code>
+                </li>
+                <li>
+                    <strong>Verify changes:</strong>
+                    <code>git log --oneline</code>
+                </li>
+            </ol>
+            <p><em>Tip:</em> Use descriptive commit messages for clarity.</p>
+        </section>
+ 
+    </div>
+ 
     <footer class="footer">
         <div class="logo">
             <h1><a href="home.html">Recipes</a></h1>
@@ -71,5 +135,7 @@
         </div>
     </footer>
 </body>
-
+ 
 </html>
+
+ 

@@ -1,0 +1,107 @@
+.heading {
+    background-color: #f0f8ff;
+    color: #28a745;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.heading h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Sections */
+section h2 {
+    margin-bottom: 15px;
+    color: #28a745;
+}
+
+.heading {
+    background-color: #f0f8ff;
+    color: #28a745;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.heading h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Sections */
+section h2 {
+    margin-bottom: 15px;
+    color: #28a745;
+}
+
+.intro {
+    margin-bottom: 30px;
+}
+
+.changes-list .change {
+    background: #e6f9f0;
+    padding: 15px;
+    border-left: 5px solid #29a745;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.change h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.2rem;
+}
+
+.change p {
+    margin: 3px 0;
+    font-size: 0.95rem;
+}
+
+/* Add Code Section */
+.add-code {
+    background-color: #fff3f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.add-code ol {
+    padding-left: 20px;
+}
+
+.add-code li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.add-code code {
+    background: #f0f0f0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+/* Responsive */
+@media(max-width: 700px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+}

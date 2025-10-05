@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width = device-width initial-scale=1" />
     <title>Git Assignment</title>
-    <link rel="stylesheet" href="Styles/common.css" />
-    <link rel="stylesheet" href="Styles/home.css" />
+    <link rel="stylesheet" href="../pages/styles/common.css" />
+    <link rel="stylesheet" href="../pages/styles/project1.css" />
     <script
       src="https://kit.fontawesome.com/20b9975a2f.js"
       crossorigin="anonymous"
@@ -15,7 +15,12 @@
   <body>
     <header class="header">
       <div class="logo">
-        <h1><a href="index.html">Git Assignment</a></h1>
+        <img
+          width="90"
+          height="90"
+          src="../pages/images/github.png"
+          alt="GitHub"
+        />
       </div>
       <nav class="navigation">
         <ul>
@@ -23,29 +28,105 @@
             <a href="index.html">Home</a>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <a href="projects.html">Projects</a>
           </li>
           <li>
-            <a href="#">Changes</a>
+            <a href="changes.html">Changes</a>
           </li>
           <li>
-            <a href="#">Branching</a>
+            <a href="branches.html">Branching</a>
           </li>
           <li>
-            <a href="#">About Us</a>
+            <a href="about.html">About Us</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main>
-      <div>
-        <h2>Project Setup</h2>
+
+    <main class="content">
+      <div class="container">
+        <div class="text-content">
+          <section>
+            <h2>Why are Remote Repositories Necessary?</h2>
+            <p>Remote repositories allow developers to :</p>
+            <ul>
+              <li>Back up code in the cloud</li>
+              <li>Collaborate with teammates from anywhere</li>
+              <li>Track issues and pull requests</li>
+              <li>Use CI/CD and other integrations</li>
+              <li>Maintain a professional portfolio</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Steps to Create a Project on GitHub</h2>
+            <ol>
+              <li>
+                Go to
+                <a href="https://github.com" target="_blank">GitHub.com</a> and
+                log in.
+              </li>
+              <li>Click on <strong>New Repository</strong>.</li>
+              <li>Enter a name and optional description.</li>
+              <li>
+                Choose <strong>Public</strong> or <strong>Private</strong>.
+              </li>
+              <li>Click <strong>Create repository</strong>.</li>
+            </ol>
+          </section>
+        </div>
+
+        <div class="image-content">
+          <img
+            src="../pages/images/project1.png"
+            alt="GitHub illustration"
+            width="400px"
+            height="300px"
+          />
+        </div>
       </div>
+
+      <section>
+        <h2>Git Commands 💻</h2>
+
+        <h3>1. Create a Project Locally</h3>
+        <pre><code>
+git init
+git add .
+git commit -m "Initial commit"
+      </code></pre>
+
+        <h3>2. Link to Remote Repository</h3>
+        <pre><code>
+git remote add origin https://github.com/username/repo-name.git
+git push -u origin main
+      </code></pre>
+      </section>
+
+      <section>
+        <h2>How Others Can Contribute🤝</h2>
+
+        <ul>
+          <li>Fork the repository on GitHub</li>
+          <li>Clone their fork locally</li>
+          <li>Create a new branch for changes</li>
+          <li>Commit and push to their fork</li>
+          <li>Open a Pull Request (PR) to the main repository</li>
+        </ul>
+        <p>
+          All contributions will be reviewed before merging to the main branch.
+        </p>
+      </section>
     </main>
 
     <footer class="footer">
       <div class="logo">
-        <h1><a href="home.html">Recipes</a></h1>
+        <img
+          width="80"
+          height="60"
+          src="../pages/images/github.png"
+          alt="GitHub"
+        />
       </div>
       <div class="quick_links">
         <ul>
@@ -63,13 +144,19 @@
       <div class="social_media">
         <ul>
           <li>
-            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://www.facebook.com/"
+              ><i class="fa-brands fa-facebook"></i>Facebook</a
+            >
           </li>
           <li>
-            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram"></i>Instagram</a
+            >
           </li>
           <li>
-            <a href="https://x.com/">Twitter</a>
+            <a href="https://x.com/"
+              ><i class="fa-brands fa-twitter"></i>Twitter</a
+            >
           </li>
         </ul>
       </div>

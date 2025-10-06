@@ -35,7 +35,7 @@
         </nav>
     </header>
     <div class="heading">
-        <h1>Git Changes & Adding Code</h1>
+        <h1>Adding Code & Git Changes </h1>
     </div>
  
     <div class="container">
@@ -52,24 +52,36 @@
  
         <!-- Recent Changes -->
         <section class="changes-list">
-            <h2>Recent Changes</h2>
+            <h2>Adding code to existing repository</h2>
             <div class="change">
-                <h3>Commit: Fix login bug</h3>
-                <p><strong>Author:</strong> John Doe</p>
-                <p><strong>Date:</strong> 02-Oct-2025</p>
-                <p>Fixed an issue where users could not log in with correct credentials.</p>
+                <h3>Cloning: </h3>
+                <p>Adding code to your repository starts with cloning that repository. Cloning a repository creates a local copy that you can use to do your work. 
+                    By keeping this local copy synchronized with the remote repository stored in GitHub, you're able to get the latest changes and push your updates so others can receive them.</p>  
+                <p><code>Command: <strong>git clone repository-url</strong></code></p>    
+                <p><code>Command: <strong>cd repository-name</strong></code></p>        
             </div>
             <div class="change">
-                <h3>Commit: Add homepage design</h3>
-                <p><strong>Author:</strong> Jane Smith</p>
-                <p><strong>Date:</strong> 01-Oct-2025</p>
-                <p>Implemented the main homepage layout with responsive design.</p>
+                <h3>Create or Modify code:</h3>
+                <p>Add new files or Edit existing files in your local working directory.</p> 
+                <p>Check the status of your repo.This shows which files have been changed, added, or deleted.</p> 
+                <p><code>Command: <strong>git status</strong></code></p>          
+            </div>
+         <h2>Staging, Committing & Pushing changes</h2>   
+            <div class="change">
+                <h3>Staging:</h3>
+                <p>Add files to the staging area (preparing them for commit).We can stage a specific file or all the changes.</p>
+                <p>Command: <strong>git add filename</strong></p>
+                <p>Command: <strong>git add .</strong></p>
             </div>
             <div class="change">
-                <h3>Commit: Update README</h3>
-                <p><strong>Author:</strong> Alex Johnson</p>
-                <p><strong>Date:</strong> 30-Sep-2025</p>
-                <p>Added project description and instructions for installation and usage.</p>
+                <h3>Commit Changes:</h3>
+                <p>Commit the staged files with a meaningful message.</p>
+                <p>Command: <strong>git commit -m "Comment"</strong></p> 
+            </div>
+            <div class="change">
+                <h3>Push Changes:</h3>
+                <p>Pushing meanes sending your commits to the remote repository (ex:GitHub).</p>
+                <p>Command: <strong>git push origin main (or Branch name)</strong></p> 
             </div>
         </section>
  
@@ -100,7 +112,6 @@
             </ol>
             <p><em>Tip:</em> Use descriptive commit messages for clarity.</p>
         </section>
- 
     </div>
  
     <footer class="footer">

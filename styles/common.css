@@ -18,6 +18,7 @@ body {
 .header,
 .footer {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: #0c977b;
   border-bottom: solid 2px #fff;
@@ -38,6 +39,10 @@ body {
 
 .navigation {
   display: flex;
+}
+
+.logo {
+  width: 15%;
 }
 
 .logo a {
@@ -115,14 +120,8 @@ body {
 @media all and (max-width: 600px) {
   .logo {
     margin: 0.25em 0;
-    align-self: left;
-    /* align the logo to the left side of 'flex-container' */
-  }
-
-  .logo {
-    margin: 0.25em 0;
-    text-align: center;
     padding: 7px;
+    width: 65%;
   }
 
   .navigation ul {

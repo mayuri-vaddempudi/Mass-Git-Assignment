@@ -18,8 +18,9 @@ body {
 .header,
 .footer {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  background-color: #0c977b;
+  background-color: #a2d2ff;
   border-bottom: solid 2px #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -40,6 +41,10 @@ body {
   display: flex;
 }
 
+.logo {
+  width: 15%;
+}
+
 .logo a {
   color: black;
 }
@@ -58,12 +63,13 @@ body {
 }
 
 .navigation a {
-  color: #fff;
+  color: black;
   display: block;
+  font-weight: bold;
 }
 
 .navigation a:hover {
-  background: #53d7bd;
+  background: #bde0fe;
 }
 
 .section_top {
@@ -87,9 +93,13 @@ body {
 
 .social_media a,
 .quick_links a {
-  color: #fff;
+  color: black;
   text-decoration: none;
   margin: 0px 15px;
+}
+
+i.fa-brands {
+  padding: 10px;
 }
 
 /* *********** media queries *********** */
@@ -115,14 +125,8 @@ body {
 @media all and (max-width: 600px) {
   .logo {
     margin: 0.25em 0;
-    align-self: left;
-    /* align the logo to the left side of 'flex-container' */
-  }
-
-  .logo {
-    margin: 0.25em 0;
-    text-align: center;
     padding: 7px;
+    width: 65%;
   }
 
   .navigation ul {

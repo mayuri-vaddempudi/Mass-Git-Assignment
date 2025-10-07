@@ -1,9 +1,14 @@
+main {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
 content {
   padding: 20px;
   max-width: 1000px;
   margin: auto;
 }
-
+ 
 .content section {
   margin: 40px;
 }
@@ -12,11 +17,11 @@ content {
   justify-content: space-between;
   align-items: flex-start;
 }
-
+ 
 .text-content {
   flex: 2;
 }
-
+ 
 .image-content {
   flex: 1;
   display: flex;
@@ -27,40 +32,41 @@ content {
   margin-bottom: 10px;
   padding: 10px;
 }
-
+ 
 .image-content img {
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
-
+ 
 h2 {
   color: #003366;
 }
-
+ 
 pre {
   background-color: #f4f4f4;
-
+ 
   padding: 15px;
   overflow-x: auto;
 }
-
+ 
 code {
   font-family: monospace;
   color: #333;
   font-size: 1em;
   display: block;
 }
-
+ 
 a {
   color: #0066cc;
   text-decoration: none;
 }
-
+ 
 a:hover {
   text-decoration: underline;
 }
-
+ 
 ul,
 ol {
   margin-left: 20px;
 }
+ 
